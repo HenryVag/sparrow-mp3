@@ -19,15 +19,12 @@ AsyncStorage (persistent settings)
 
 ## Screenshots
 
- **Player Screen**
+**Player Screen**
 
 <img width="270" height="606" alt="Player" src="https://github.com/user-attachments/assets/5a0ed37c-54b1-4349-a266-f8a6c4453004" />
 
 
-<br />
-
-
- **List of Songs**
+**List of Songs**
 
 <img width="270" height="606" alt="Songs" src="https://github.com/user-attachments/assets/4847e681-480b-4018-8353-9d504283f115" />
 

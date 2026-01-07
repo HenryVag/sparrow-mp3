@@ -42,7 +42,40 @@ export default function TabLayout() {
           ),
         }}
       />
-      
+
+            <Tabs.Screen
+        name="player"
+        options={{
+          title: "Play",
+          headerTitle: "Now Playing",
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons
+              name={focused ? "play-circle-sharp" : "play-circle-outline"}
+              color={color}
+              size={24}
+            />
+          ),
+        }}
+      />
+
+      <Tabs.Screen
+        name="settings"
+        options={{
+          title: "Settings",
+          headerTitle: "Settings",
+          tabBarIcon: ({ color, focused }) => (
+            <Ionicons
+              name={focused ? "settings-sharp" : "settings-outline"}
+              color={color}
+              size={24}
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
+      
+
+
+  
 }

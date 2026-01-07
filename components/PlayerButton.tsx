@@ -3,20 +3,20 @@ import { PlayerContext } from "@/app/contexts/PlayerContext";
 import { darkTheme, lightTheme } from "@/styles/themes";
 import { useContext, useRef } from "react";
 import {
-    Animated,
-    Pressable,
-    StyleSheet,
-    Text,
+  Animated,
+  Pressable,
+  StyleSheet,
+  Text,
 } from "react-native";
 
 type PlayerButtonProps = {
-  playIcon: string;
-  pauseIcon: string;
+  playIcon: React.ReactNode ;
+  pauseIcon: React.ReactNode;
   onPress?: () => void;
 };
 
 type NextPrevButtonProps = {
-  icon: string;
+  icon: React.ReactNode;
   onPress?: () => void;
 };
 
@@ -97,7 +97,7 @@ export function NextPrevButton({ icon, onPress }: NextPrevButtonProps) {
           },
         ]}
       >
-        <Text style={[styles.controlText, { color: theme.text }]}>
+        <Text style={[styles.controlText, { color: theme.text}]}>
           {icon}
         </Text>
       </Animated.View>

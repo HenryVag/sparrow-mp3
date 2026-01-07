@@ -1,5 +1,6 @@
 import { NextPrevButton, PlayPauseButton } from "@/components/PlayerButton";
 import { darkTheme, lightTheme } from "@/styles/themes";
+import Ionicons from "@expo/vector-icons/Ionicons";
 import React, { useContext } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import { AppContext } from "../contexts/AppContext";
@@ -8,6 +9,7 @@ import { PlayerContext } from "../contexts/PlayerContext";
 export default function PlayerScreen() {
   const playerContext = useContext(PlayerContext);
   const appContext = useContext(AppContext);
+  const buttonSize = 30
 
   const theme = appContext?.theme === "dark" ? darkTheme : lightTheme;
 
@@ -18,10 +20,10 @@ export default function PlayerScreen() {
       </Text>
 
       <View style={styles.controls}>
-        <NextPrevButton icon="⏮️" onPress={() => playerContext?.prev()} />
+        <NextPrevButton icon={<Ionicons name="play-skip-back-outline" color="#E53935" size={buttonSize} />} onPress={() => playerContext?.prev()} />
         <PlayPauseButton
-          playIcon="▶️"
-          pauseIcon="⏸️"
+          playIcon={<Ionicons name="play-outline" color="#E53935" size={buttonSize}/>}
+          pauseIcon={<Ionicons name="pause-outline" color="#E53935" size={buttonSize}/>}
           onPress={() =>
             playerContext?.isPlaying
               ? playerContext?.pause()
@@ -31,7 +33,7 @@ export default function PlayerScreen() {
                 )
           }
         />
-        <NextPrevButton icon="⏭️" onPress={() => playerContext?.next()} />
+        <NextPrevButton icon={<Ionicons name="play-skip-forward-outline" color="#E53935" size={buttonSize} />} onPress={() => playerContext?.next()} />
       </View>
     </View>
   );

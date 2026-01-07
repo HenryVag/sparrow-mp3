@@ -23,6 +23,7 @@ AsyncStorage (persistent settings)
 
 <img width="270" height="606" alt="Player" src="https://github.com/user-attachments/assets/5a0ed37c-54b1-4349-a266-f8a6c4453004" />
 
+<br />
 
  **List of Songs**
 

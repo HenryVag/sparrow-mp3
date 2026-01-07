@@ -5,7 +5,7 @@ Sparrow is React Native music player app built with Expo that allows users to br
 
 
 
-## Tech Stack & Tools
+## 🔨Tech Stack & Tools 💻
 
 
 React Native (TypeScript)
@@ -17,7 +17,7 @@ Expo FileSystem API (local file access)
 React Context (app-wide state management)
 AsyncStorage (persistent settings)
 
-## Screenshots
+## 📷 Screenshots
 
 **Player Screen**
 

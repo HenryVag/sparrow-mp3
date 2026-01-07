@@ -1,4 +1,4 @@
-# ♫ Sparrow MP3 Player (React Native / Expo)
+# 🎵 Sparrow MP3 Player (React Native / Expo) 🎵
 
 Sparrow is React Native music player app built with Expo that allows users to browse and play local MP3 files stored on their device. The app supports playback controls, light and dark themes and uses native device APIs for audio playback and file system access.
 
@@ -18,10 +18,8 @@ React Context (app-wide state management)
 AsyncStorage (persistent settings)
 
 ## Screenshots
-```
 
  **Player Screen**
-
 
 <img width="270" height="606" alt="Player" src="https://github.com/user-attachments/assets/5a0ed37c-54b1-4349-a266-f8a6c4453004" />
 

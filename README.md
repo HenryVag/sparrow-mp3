@@ -26,17 +26,14 @@ AsyncStorage (persistent settings)
 
  **List of Songs**
 
-
 <img width="270" height="606" alt="Songs" src="https://github.com/user-attachments/assets/4847e681-480b-4018-8353-9d504283f115" />
 
 
 **Settings Screen**
 
-
 <img width="270" height="606" alt="Settings" src="https://github.com/user-attachments/assets/b7764243-2c69-427c-bdc0-92eacefcf0d0" />
 
 
 **Folder Selection**
-
 
 <img width="270" height="606" alt="Folder Selection" src="https://github.com/user-attachments/assets/951f10ee-9d51-4d2a-959c-d7269634a931" />

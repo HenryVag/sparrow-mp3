@@ -1,7 +1,6 @@
 import EmptySongsState from "@/components/EmptySongsState";
 import SongList from "@/components/SongList";
 import { darkTheme, lightTheme } from "@/styles/themes";
-import { useRouter } from "expo-router";
 import { useContext } from "react";
 import { StyleSheet, View } from "react-native";
 import { AppContext } from "../contexts/AppContext";
@@ -9,8 +8,6 @@ import { AppContext } from "../contexts/AppContext";
 
 export default function Index() {
   const appContext = useContext(AppContext);
-  const router = useRouter();
-
   const theme = appContext?.theme === "dark" ? darkTheme : lightTheme;
 
   return (
